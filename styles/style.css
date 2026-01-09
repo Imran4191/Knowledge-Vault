@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.container {
+    padding: 120px;
+}
+.highlight {
+    color: #30B868;
+}
+
+.btn {
+    background-color: #30B868;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    padding: 12px 16px;
+    border-radius: 4px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #FFFFFF;
+    color: #469165;
+    border: 2px solid #469165;
+}
+.secondary-btn{
+    background: transparent;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    padding: 12px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.secondary-btn:hover {
+    background: #469165;
+    color: #FFFFFF;
+    border: 2px solid #469165;
+}
+
+/* Header Styles */
+nav {
+    display: flex;
+    padding: 16px 120px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul.menu {
+    display: flex;
+    gap: 24px;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#hero-banner {
+    background: url('../assets/hero-bg.png') ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.badge {
+    background: #fff;
+    color: #30B868;
+    padding: 8px 12px;
+    border-radius: 1000px;
+}
+.badge svg {
+    margin-bottom: -2px;
+}
+.hero-banner-content {
+    text-align: center;
+    opacity: 0.9;
+}
+.hero-banner-content h2 {
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 84px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: #FFFFFF;
+}
+
+.hero-banner-content p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 32px;
+    color: #FFFFFF;
+}
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
