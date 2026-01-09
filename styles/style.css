@@ -71,6 +71,8 @@ ul.menu {
     font-weight: 500;
 }
 
+/* Hero Styles */
+
 #hero-banner {
     background: url('../assets/hero-bg.png') ;
     background-repeat: no-repeat;
@@ -114,20 +116,20 @@ ul.menu {
 }
 
 
-.info-card img {
-    border-radius: 100%;
-    background: #F95555;
-    padding: 15px;
-    /* padding-top: 70px; */
-}
-
-.info-card {
-    padding: 70px 24px 0;
-}
+/* Notes Section */
 
 .notes-info {
     display: flex;
     text-align: center;
+}
+.info-card img {
+    border-radius: 100%;
+    background: #F95555;
+    padding: 15px;
+}
+
+.info-card {
+    padding: 70px 24px 0;
 }
 
 .info-card h4 {
@@ -203,4 +205,28 @@ i.fa-solid.fa-check {
     font-weight: 500;
     line-height: 20px;
     font-size: 16px;
+}
+
+/* Ready to think Section */
+
+#ready-to-think .container {
+    padding-top: 0;
+}
+
+.ready-to-think-content {
+    text-align: center;
+    margin: 0 auto;
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+}
+.ready-to-think-content h2 {
+    font-size: 40px;
+    padding-bottom: 16px;
+}
+
+.ready-to-think-content p {
+    color: #627382;
+}
+.ready-to-think-content .cta-buttons {
+    padding: 16px 0;
 }
